@@ -170,11 +170,13 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: none !important;
 }
 
 .navbar-brand img {
   width: 35px;
   margin-right: 5px;
+  border: none !important;
 }
 
 .navbar-brand span {
@@ -191,11 +193,13 @@ a:focus {
 
 .custom_nav-container .navbar-toggler {
   outline: none;
+  border: none !important;
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
   background-image: url(../images/menu.png);
   background-size: 42px;
+  border: none !important;
 }
 
 
@@ -656,6 +660,13 @@ section.pricing {
   transition: all 0.3s ease;
 }
 
+.pricing-card .pricing-title,
+.pricing-card .price-sec,
+.pricing-card .info,
+.pricing-card .details {
+  text-align: center;
+}
+
 .pricing-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
@@ -684,20 +695,21 @@ section.pricing {
   margin-bottom: 15px;
 }
 
-.details div {
+.pricing-card .details div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   border-bottom: 1px solid #e9ecef;
   padding: 8px 0;
   font-size: 0.95rem;
 }
 
-.details i.fa-check {
+.pricing-card .details i.fa-check {
   color: green;
 }
 
-.details i.fa-times {
+.pricing-card .details i.fa-times {
   color: red;
 }
 
