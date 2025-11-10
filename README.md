@@ -1,6 +1,8 @@
 
 # IronX - Gym & Fitness Website
 
+![IronX Website Screenshot](images/website-screenshot.png)
+
 A modern, responsive website for IronX gym and fitness center. This project features a clean design with smooth animations, interactive elements, and a fully responsive layout that works seamlessly on desktop, tablet, and mobile devices.
 
 ## 🏋️ Project Overview
